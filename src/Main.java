@@ -8,7 +8,7 @@ public class Main {
 
         /* zad.1
         a) stworzyć tablicę typu int[20],
-        b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 20,
+        b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 21,
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
