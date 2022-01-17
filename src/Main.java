@@ -9,6 +9,14 @@ public class Main {
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
 
+        int x=1000;
+        do
+        {
+            String czyparzyste=x%35==0 ? " (Liczba "+x+" podzielna przez 35)" : "";
+            System.out.println(x + czyparzyste);
+        }
+        while (--x > 0);
+
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
