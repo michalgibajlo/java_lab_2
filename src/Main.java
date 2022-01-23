@@ -29,17 +29,14 @@ public class Main {
          */
         
         
-        /* zad.3* Dla chętnych, nie będzie oceniane:
+        /* zad.3* Dla chętnych (nie będzie punktowane):
                 Napisać podobny program jak w zad.1 zamiast zwierząt wprowadzć dowolne dane 
                 np. imiona, nazwiska, miasta, samochody ... . (dowolność),
-                Wykonać na TreeSet 
-                -- podpowiedź: Set<String> nazwaSeta = new TreeSet<>();
-        /*
-
-        /*  zad.3* dla chętnych (bez dodatkowych punktów)
-                a) napisać Set<String> i Set<Double>, zaimplementować klasą HashSet<>();
-                b) wykonać dowolne operacje i posortować
-        */
+                Wykonać na HashSet
+                -- podpowiedź: Set<String> nazwaSeta = new HashSet<>();
+                posortować kolekcję
+                -- podpowiedź można przekonwertować dane do TreeSet albo do listy
+         */
 
     }
 
