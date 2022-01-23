@@ -36,6 +36,11 @@ public class Main {
                 -- podpowiedź: Set<String> nazwaSeta = new TreeSet<>();
         /*
 
+        /*  zad.3* dla chętnych (bez dodatkowych punktów)
+                a) napisać Set<String> i Set<Double>, zaimplementować klasą HashSet<>();
+                b) wykonać dowolne operacje i posortować
+        */
+
     }
 
 }
