@@ -68,7 +68,7 @@ public class Main {
 
         //b) a jak gdy damy false --> while(false)
         i=1;
-        while (i<0) //przy false wyrzuca błąd "unreachable statement więc użyłem zawsze fałszywego stwierdzenia
+        while (i<0) //przy false wyrzuca błąd "unreachable statement" więc użyłem zawsze fałszywego warunku
         {
             System.out.println("NEVER HAPPENS");
             i++;
