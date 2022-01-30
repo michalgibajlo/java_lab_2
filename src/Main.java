@@ -55,11 +55,24 @@ public class Main {
             i--;
         }
 
-        /* zad.3
-        a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
-        b) a jak gdy damy false --> while(false)
+        //zad.3
+
+
+        /*
+        //a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
+        while (true)
+        {
+            System.out.println("REPEAT INDEFINITELY");
+        }
         */
 
+        //b) a jak gdy damy false --> while(false)
+        i=1;
+        while (i<0) //przy false wyrzuca błąd "unreachable statement więc użyłem zawsze fałszywego stwierdzenia
+        {
+            System.out.println("NEVER HAPPENS");
+            i++;
+        }
 
     }
 }
