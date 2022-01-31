@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Main {
 
@@ -16,7 +17,30 @@ public class Main {
                   następnie wyświetlić listę i wielkość listy,
                 d) proszę wyświetlić posortowną listę, oraz odwrotniee posortowaną i znów użyć metody z punktu b) do wyświetlenia
                   elementów listy
-          */
+
+         */
+
+        System.out.println("Zadanie 1:");
+        List<String> listazwierzat = new ArrayList<>();
+        Scanner scan = new Scanner(System.in);
+        for (int i=1; i<6;i++)
+        {
+            System.out.print("Nazwa "+i+" zwierzęcia: ");
+            listazwierzat.add(scan.nextLine());
+        }
+        for(String x : listazwierzat)
+            {
+                System.out.print(x+ " ");
+            }
+        listazwierzat.remove(4);
+        listazwierzat.remove(3);
+        listazwierzat.remove(1);
+        listazwierzat.add("Wombat");
+        listazwierzat.add("Jętka");
+        listazwierzat.add("Aligator");
+        listazwierzat.add("Płoć");
+        System.out.println("\n"+listazwierzat+" dł."+listazwierzat.size());
+
 
 
          /* zad.2 Napisać program który :
@@ -24,8 +48,23 @@ public class Main {
                 b) następnie wyświetlić zawartość set-a w konsoli,
                 c) następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
-        
-        
+
+        System.out.println("\nZadanie 2");
+
+        Set<Integer> liczby = new TreeSet<>();
+        Scanner scan1 = new Scanner(System.in);
+        for (int i=1; i<=10;i++)
+        {
+            System.out.print("Podaj "+i+" liczbę: ");
+            liczby.add(scan1.nextInt());
+        }
+        System.out.println(liczby);
+        for (Integer x:liczby)
+        {
+            System.out.print(x+", ");
+        }
+
+
         /* zad.3* Dla chętnych (nie będzie punktowane):
                 Napisać podobny program jak w zad.1 zamiast zwierząt wprowadzć dowolne dane 
                 np. imiona, nazwiska, miasta, samochody ... . (dowolność),
